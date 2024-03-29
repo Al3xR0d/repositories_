@@ -1,0 +1,130 @@
+html {
+  background-color: tomato;
+  background-size: 3px;
+  font-family: Arial, sans-serif;
+}
+
+*,
+*before,
+*after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+}
+
+form {
+  max-width: 55%;
+  margin: 50px auto;
+}
+
+input.search {
+  margin: 0;
+  align-items: center;
+  /* outline: 0; */
+  border: 10px solid #6e6a6a;
+  width: 120%;
+  left: -18%;
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.options {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.options li {
+  background: #fff;
+  list-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  margin: 0;
+  padding: 18px;
+  text-transform: capitalize;
+}
+
+.hl {
+  background: #ffc600;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nameRepo {
+  color: blue;
+  font-weight: bold;
+}
+
+.card {
+  position: relative;
+  left: -15.5%;
+  width: 121%;
+}
+
+.close {
+  position: absolute;
+  cursor: pointer;
+  left: 85%;
+  bottom: 35%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: linear-gradient(
+      45deg,
+      transparent calc(50% - 3px),
+      #000000 calc(50% - 3px),
+      #000000 calc(50% + 3px),
+      transparent calc(50% + 3px)
+    ),
+    linear-gradient(
+      -45deg,
+      transparent calc(50% - 3px),
+      #000000 calc(50% - 3px),
+      #000000 calc(50% + 3px),
+      transparent calc(50% + 3px)
+    );
+}
+
+.close:hover {
+  box-shadow: 0 0 10px 0 tomato;
+}
+
+.container {
+  margin: 0;
+  margin: 0;
+  width: 69%;
+  left: 10%;
+  position: absolute;
+  z-index: 10;
+}
+
+.containerList {
+  background: #fff;
+  margin: 0;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.containerList:hover {
+  background: rgb(216, 212, 212);
+}
